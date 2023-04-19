@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 RUN \
  sed 's/main$/main universe/' -i /etc/apt/sources.list && \
  apt-get update && \

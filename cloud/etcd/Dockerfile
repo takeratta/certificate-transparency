@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.10
 RUN \
  sed 's/main$/main universe/' -i /etc/apt/sources.list && \
  apt-get update && \

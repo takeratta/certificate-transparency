@@ -4,7 +4,7 @@ ecdsa
 git+https://github.com/google/google-visualization-python.git@04e4c03909980bc12be2ebb3ecf476716d9855d4
 mock>=1.0
 protobuf
-requests>=1.0
+requests>=2.32.0
 Twisted[tls]>=12.1
 bitstring
 jsonschema

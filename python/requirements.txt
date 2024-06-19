@@ -9,3 +9,4 @@ Twisted[tls]>=12.1
 bitstring
 jsonschema
 cryptography>=1.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
